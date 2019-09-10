@@ -11,8 +11,8 @@ const Specials = () => {
   const [specs, setSpecs] = useState(specials);
 
   return (
-    <div className="specBtns">
-      {specials.map(item => {
+    <div>
+      {specs.map(item => {
         return <SpecialButton spec = {item}/>
       })}
 
