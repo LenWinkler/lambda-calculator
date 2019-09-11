@@ -1,0 +1,24 @@
+.numButtons {
+    background: midnightblue;
+    color: white;
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 3px 3px 2px black;
+    margin: .5rem;
+}
+
+button:nth-child(10) {
+    width: 14rem;
+    border-radius: 50%;
+}
+
+.numBtnDiv {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}

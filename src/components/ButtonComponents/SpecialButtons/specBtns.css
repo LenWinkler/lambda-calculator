@@ -1,0 +1,11 @@
+.specBtns {
+    background: #4169E1;
+    color: white;
+    height: 6.5rem;
+    width: 6.5rem;
+    margin: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 3px 3px 2px black;
+}
