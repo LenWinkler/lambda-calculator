@@ -22,10 +22,12 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
-        <Specials />
-        <div className="numsOps">
-        <Numbers/>
-        <Operators/>
+        <div className="allBtns">
+          <div className="specNums">
+            <Specials />
+            <Numbers/>
+          </div>
+          <Operators/>
         </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
