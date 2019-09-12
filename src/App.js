@@ -26,7 +26,7 @@ function App() {
         <div className="allBtns">
           <div className="specNums">
             <Specials />
-            <Numbers numDisp = {numDisplay}/>
+            <Numbers numDisp = {numDisplay} setDisplayNum={setDisplayNum}/>
           </div>
           <Operators/>
         </div>
